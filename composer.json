@@ -1,0 +1,38 @@
+{
+    "name": "konnektive/crm-doc",
+    "description": "Konnektive CRM Operational Documentation",
+    "type": "laravel-package",
+    "license": "MIT",
+    "keywords": [
+        "konnektive",
+        "checkout-champ",
+        "checkoutchamp",
+        "konnektive-crm",
+        "checkoutchamp",
+        "creative-syntax",
+        "onexcrm",
+        "arindam"
+    ],
+    "authors": [
+        {
+            "name": "Arindam Roy",
+            "email": "arindam.roy.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Konnektive\\CrmDoc\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Konnektive\\CrmDoc\\KonnektiveCrmDoc"
+            ]
+        }
+    }
+}
